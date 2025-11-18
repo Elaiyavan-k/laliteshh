@@ -3,7 +3,7 @@ import { PlaneIcon, ShipIcon, TruckIcon, WarehouseIcon, ShieldCheckIcon, Package
 
 export const mockTrackingData: Shipment[] = [
   {
-    awb: 'SW123456789',
+    awb: 'LA123456789',
     origin: 'Shanghai, China',
     destination: 'New York, USA',
     updates: [
@@ -15,7 +15,7 @@ export const mockTrackingData: Shipment[] = [
     ],
   },
   {
-    awb: 'SW987654321',
+    awb: 'LA987654321',
     origin: 'Hamburg, Germany',
     destination: 'Los Angeles, USA',
     updates: [
@@ -24,7 +24,7 @@ export const mockTrackingData: Shipment[] = [
     ],
   },
     {
-    awb: 'SW555555555',
+    awb: 'LA555555555',
     origin: 'Toronto, Canada',
     destination: 'Miami, USA',
     updates: [
@@ -36,9 +36,9 @@ export const mockTrackingData: Shipment[] = [
 ];
 
 export const testimonials: Testimonial[] = [
-  { quote: "SwiftShip transformed our supply chain. Their reliability and communication are second to none. Truly a partner in our success.", author: "Jane Doe", company: "Global Imports Inc." },
+  { quote: "Lalitesh's freights transformed our supply chain. Their reliability and communication are second to none. Truly a partner in our success.", author: "Jane Doe", company: "Global Imports Inc." },
   { quote: "The tracking portal is a game-changer. Real-time visibility has allowed us to better manage inventory and customer expectations.", author: "John Smith", company: "Tech Gadgets Co." },
-  { quote: "Navigating customs used to be our biggest headache. SwiftShip's expert team makes it seamless every single time.", author: "Carlos Rodriguez", company: "Artisan Goods Exporters" }
+  { quote: "Navigating customs used to be our biggest headache. Lalitesh's freights' expert team makes it seamless every single time.", author: "Carlos Rodriguez", company: "Artisan Goods Exporters" }
 ];
 
 export const services: Service[] = [
@@ -51,7 +51,7 @@ export const services: Service[] = [
 ];
 
 export const teamMembers: TeamMember[] = [
-    { name: "Eleanor Vance", role: "CEO & Founder", bio: "With over 20 years in logistics, Eleanor founded SwiftShip with a vision to create a customer-centric, technology-driven shipping company.", imageUrl: "https://picsum.photos/id/1027/400/400" },
+    { name: "Eleanor Vance", role: "CEO & Founder", bio: "With over 20 years in logistics, Eleanor founded Lalitesh's freights with a vision to create a customer-centric, technology-driven shipping company.", imageUrl: "https://picsum.photos/id/1027/400/400" },
     { name: "Marcus Thorne", role: "Head of Operations", bio: "Marcus orchestrates the complex dance of global logistics, ensuring every shipment moves efficiently from origin to destination.", imageUrl: "https://picsum.photos/id/1005/400/400" },
     { name: "Isabella Rossi", role: "Director of Global Trade", bio: "Isabella is our in-house expert on international trade compliance, navigating the intricacies of customs and regulations with ease.", imageUrl: "https://picsum.photos/id/1025/400/400" },
     { name: "Chen Wei", role: "Chief Technology Officer", bio: "Wei leads our tech innovation, building the powerful yet intuitive tools that give our clients unparalleled control and visibility.", imageUrl: "https://picsum.photos/id/1011/400/400" },

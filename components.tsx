@@ -65,7 +65,7 @@ export const Header: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="text-white font-bold text-xl flex items-center gap-2">
               <GlobeIcon className="h-8 w-8 text-accent"/>
-              <span>SwiftShip</span>
+              <span>Lalitesh's freights</span>
             </Link>
           </div>
           <div className="hidden md:block">
@@ -139,12 +139,12 @@ export const Footer: React.FC = () => (
           <ul className="mt-4 space-y-2">
             <li>123 Shipping Lane, Port City, 12345</li>
             <li>(123) 456-7890</li>
-            <li>contact@swiftship.com</li>
+            <li>contact@laliteshsfreights.com</li>
           </ul>
         </div>
       </div>
       <div className="mt-8 border-t border-neutral-700 pt-8 text-center">
-        <p className="text-base text-neutral-400">&copy; {new Date().getFullYear()} SwiftShip Logistics. All rights reserved.</p>
+        <p className="text-base text-neutral-400">&copy; {new Date().getFullYear()} Lalitesh's freights. All rights reserved.</p>
       </div>
     </div>
   </footer>

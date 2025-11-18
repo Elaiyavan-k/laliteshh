@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, ServiceCard, TeamMemberCard, Timeline, Input, Select, QuoteResult, Modal } from './components';
@@ -93,9 +92,9 @@ export const AboutPage: React.FC = () => (
     <div className="bg-white py-16">
       <div className="container mx-auto px-6">
         <div className="text-center">
-          <h1 className="text-4xl font-extrabold text-primary">About SwiftShip Logistics</h1>
+          <h1 className="text-4xl font-extrabold text-primary">About Lalitesh's freights</h1>
           <p className="mt-4 text-lg text-neutral-600 max-w-3xl mx-auto">
-            Founded on the principles of reliability, innovation, and customer-first service, SwiftShip has grown into a leading global logistics provider.
+            Founded on the principles of reliability, innovation, and customer-first service, Lalitesh's freights has grown into a leading global logistics provider.
           </p>
         </div>
 
@@ -164,7 +163,7 @@ export const TrackPage: React.FC = () => {
                             type="text"
                             value={awbInput}
                             onChange={(e) => setAwbInput(e.target.value)}
-                            placeholder="e.g., SW123456789, SW987654321"
+                            placeholder="e.g., LA123456789, LA987654321"
                             className="flex-grow w-full px-4 py-3 border border-neutral-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
                         />
                         <Button type="submit" disabled={isLoading} className="w-full sm:w-auto">
@@ -367,7 +366,7 @@ export const ContactPage: React.FC = () => {
                         <div>
                             <h3 className="text-xl font-semibold text-secondary">Contact Information</h3>
                             <p className="mt-2 text-neutral-600">123 Shipping Lane, Port City, 12345</p>
-                            <p className="text-neutral-600">contact@swiftship.com</p>
+                            <p className="mt-2 text-neutral-600">contact@laliteshsfreights.com</p>
                             <p className="text-neutral-600">(123) 456-7890</p>
                         </div>
                         <div>
