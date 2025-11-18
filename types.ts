@@ -1,3 +1,4 @@
+import type { FC, SVGProps } from 'react';
 
 export interface TrackingUpdate {
   status: 'Received' | 'In Transit' | 'Customs' | 'Out for Delivery' | 'Delivered' | 'Exception';
@@ -22,7 +23,8 @@ export interface Testimonial {
 export interface Service {
   title: string;
   description: string;
-  icon: React.FC<React.SVGProps<SVGSVGElement>>;
+  // FIX: Use imported FC and SVGProps types instead of React namespace.
+  icon: FC<SVGProps<SVGSVGElement>>;
   highlights: string[];
 }
 

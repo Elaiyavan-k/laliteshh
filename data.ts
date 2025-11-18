@@ -1,6 +1,5 @@
-
 import type { Shipment, Testimonial, Service, TeamMember } from './types';
-import { PlaneIcon, ShipIcon, TruckIcon, WarehouseIcon, ShieldCheckIcon, GlobeIcon, PackageCheckIcon, PackageIcon, BuildingIcon } from './components';
+import { PlaneIcon, ShipIcon, TruckIcon, WarehouseIcon, ShieldCheckIcon, PackageCheckIcon } from './components';
 
 export const mockTrackingData: Shipment[] = [
   {

@@ -1,5 +1,4 @@
-
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import type { Service, TeamMember, QuoteResultData, TrackingUpdate, Shipment } from './types';
 
